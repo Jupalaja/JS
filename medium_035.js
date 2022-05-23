@@ -1,4 +1,6 @@
-function mystery2(a,b){
+// ¿Que hace esta funcion?
+
+function mystery(a,b){
     let M, mn 
     M = mn = Math.max(a,b);
 
@@ -10,7 +12,8 @@ function mystery2(a,b){
     return M;
 }
 
-let A = mystery2(38,12)
+let A = mystery(38,12)
 
+// R/. Halla el minimo comun multiplo entre a y b
 console.log(A) 
 

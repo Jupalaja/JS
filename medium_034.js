@@ -1,3 +1,4 @@
+// Encuentre el valor de mA[2]
 
 function mystery(arr, W){
     let mS = [];
@@ -21,5 +22,7 @@ let arr = [2,4,6,8,10,12,14];
 
 let mA = mystery(arr, 3);
 
+/* R/. 8. 
+                                                            */
 console.log(mA) 
 
